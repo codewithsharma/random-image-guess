@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.page{
+
+    width: 100%;
+    margin: auto;
+    height: 90vh;
+    display: flex;
+}
+.game{
+    width: 90%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+.left{
+    background-color: rgb(47, 44, 44);
+    padding: 20px;
+    width: 160px;
+    
+
+}
+.button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+button{
+    padding: 10px 25px;
+    width: 160px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background-color: rgb(31, 193, 226);
+    font-size: 20px;
+    border-radius: 10px;
+    transition: 0.4s;
+    &:active{
+        transform: scale(0.8);
+    }
+}
+#finalScore{
+    font-size: 50px;
+    word-spacing: 4px;
+    position: absolute;
+    top: 100px;
+    left: 20%;
+}
+
+#userScore{
+    position: absolute;
+    font-size: 40px;
+    top: 30px;
+    left: 45%;
+}
+.right{
+    background-color: rgb(47, 44, 44);
+    padding: 20px;
+    width: 160px;
+    
+    
+}
+.image{
+    border-radius: 50px;
+    padding: 5px;
+}
+.number
+{
+    margin-left: 20px;
+    background-color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    width: 80px;
+    border-radius: 50%;
+    text-align: center;
+
+}
+h1{
+    color: white;
+    font-size: 66px;
+    
+}
+.center{
+    padding: 20px;position: relative;
+}
+.display{
+    width: 650px;
+    height: 500px;
+    position: relative;
+}
+.image{
+    width: 110px;
+    height: 110px;
+}
+#imageContainer{
+    width: 629px;
+    position: absolute;
+    top: 12px;
+    left: 11px;
+    background-color: black;
+    height: 356px;
+    z-index: 7;
+}
+#lcd{
+    width: 650px;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+
+}
